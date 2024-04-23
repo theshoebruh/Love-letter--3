@@ -1,0 +1,135 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fc03a1;
+    font-weight: bold;
+}
+.animation-box{
+    width: 70%;
+    height: 27.5rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.first-text{
+    font-size: 4.0rem;
+    color: black;
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    opacity: 0;
+    animation-name: firstText;
+    animation-duration: 5s;
+}
+.second-text{
+    font-size: 4.0rem;
+    color: black;
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    opacity: 0;
+    animation-name: firstText;
+    animation-duration: 5s;
+    animation-delay: 5s;
+}
+.third-text{
+    font-size: 4.0rem;
+    color: black;
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    opacity: 0;
+    animation-name: firstText;
+    animation-duration: 5s;
+    animation-delay: 10s;
+}
+.fourth-text{
+    font-size: 4.0rem;
+    color: black;
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    opacity: 0;
+    animation-name: firstText;
+    animation-duration: 5s;
+    animation-delay: 15s;
+}
+.fifth-text{
+    font-size: 4.0rem;
+    color: black;
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    opacity: 0;
+    animation-name: firstText;
+    animation-duration: 5s;
+    animation-delay: 20s;
+}
+.sixth-text{
+    font-size: 4.0rem;
+    color: black;
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    opacity: 0;
+    animation-name: firstText;
+    animation-duration: 5s;
+    animation-delay: 25s;
+}
+.seventh-text{
+    font-size: 4.0rem;
+    color: black;
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    opacity: 0;
+    animation-name: firstText;
+    animation-duration: 5s;
+    animation-delay: 30s;
+}
+.eighth-text{
+    font-size: 4.0rem;
+    color: black;
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    opacity: 0;
+    animation-name: firstText;
+    animation-duration: 5s;
+    animation-delay: 35s;
+}
+.ninth-text{
+    font-size: 4.0rem;
+    color: black;
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    opacity: 0;
+    animation-name: firstText;
+    animation-duration: 5s;
+    animation-delay: 40s;
+}
+.tenth-text{
+    font-size: 6.0rem;
+    color: black;
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    opacity: 0;
+    animation-name: firstText;
+    animation-duration: 10s;
+    animation-delay: 45s;
+}
+@keyframes firstText{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
